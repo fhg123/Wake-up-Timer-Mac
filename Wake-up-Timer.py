@@ -34,8 +34,7 @@ while True:
     if (current_time.strftime("%H") == hour) and (current_time.strftime("%M") == minute):
         osascript.osascript("set volume output volume 100")
         subprocess.call(
-            ["afplay", "/Users/laurenzhaug/Movies/4K Video Downloader/Seishun Buta Yarou wa Bunny Girl Senpai "
-                       "no Yume wo Minai ED [Part Section]「Fukashigi no Carte」.mp3"])
+            ["afplay", "Your Song (Complete Path).mp3"])
         applescript = """
         display dialog "Good morning. Hope you slept well" ¬
         with title "Wake up timer" ¬
